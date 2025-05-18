@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="13dp"
+   android:background="#FF5722"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Android Developer"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/profilepic"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ScrollView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:text="🌟 **Passionate App Developer | Innovator | Lifelong Learner**
+
+I am an enthusiastic and motivated app developer with hands-on experience gained through a rewarding internship at Codec Technologies India. During my tenure, I worked on diverse projects that enhanced my skills in app development, problem-solving, and innovative thinking.
+
+My journey in tech has been driven by a curiosity to learn and a passion for creating impactful solutions. I thrive in dynamic environments, enjoy tackling challenging problems, and am always eager to collaborate with like-minded professionals.
+
+**Key Highlights:**
+- Successfully completed an internship as an App Developer at Codec Technologies India.
+- Developed and implemented cutting-edge app solutions, contributing to the team’s overall success.
+- Enhanced my technical skills and gained practical experience in app development.
+- Built strong professional relationships and worked closely with a talented team.
+
+I am excited to apply my knowledge and continue growing in the field of app development. Looking forward to connecting with professionals who share a passion for technology and innovation.
+
+📬 Feel free to connect with me!"
+            />
+
+    </ScrollView>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Explore More.."
+        android:textColor="@color/white"
+        android:backgroundTint="#2196F3"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>
