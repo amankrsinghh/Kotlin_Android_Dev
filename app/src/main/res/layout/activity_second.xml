@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity"
     android:orientation="vertical"
+    android:padding="10dp"
     android:background="#FF5722">
 
 <TextView
@@ -16,6 +17,7 @@
     android:textStyle="bold"
     android:gravity="center"
     android:textSize="25sp"
+    android:layout_marginBottom="10dp"
     android:textColor="@color/white"/>
 
     <Button
@@ -43,7 +45,28 @@
         android:text="SMS App"
         android:layout_gravity="center"/>
     <Button
+        android:id="@+id/btnCamera"
+        android:text="Camera"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#009688"
+        android:layout_gravity="center"/>
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WEB VIEW EXAMPLE"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnPortfolio"
+        android:text="Portfolio WebView"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
